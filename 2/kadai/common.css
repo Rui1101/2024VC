@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+}
+h1 {
+    text-shadow: 0.5px 0.5px 2px grey;
+}
+
+div#list{
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
+li a{
+    color: blue;  
+}
+li a:visited{
+    color: blue;
+}
+p a {
+	color: black;
+	font-size: larger;
+	text-align: left;
+}
+
+p a:hover {
+	background-color: lightgray;
+}
+p a:visited{
+    color: black;
+}
+span.bold {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+img {
+	width: 100px;
+	height: 100px;
+}
+footer {
+    text-align: center;
+    margin: 0 auto;
+}
+div#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#footer a :hover{
+    background-color: rgb(200, 200, 200); 
+}
+
+
+#footer a p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 3px black solid;
+	border-radius: 5px;
+	padding: 5px;
+	height: 75px;
+	width: 250px;
+	box-sizing: border-box;
+	margin: 10px;
+}
