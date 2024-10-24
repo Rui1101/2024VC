@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div#h1 {
+    display: inline-block;
+	align-items: center;
+	height: 100px;
+}
+
+h1 {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+div#top {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+span#cake_title {
+    font-size: 1.5em;
+    font-family: "Kaisei Decol", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    padding: 5px;
+}
+
+div#welcome_msg {
+    
+    text-align: left;
+}
+
+p {
+    font-family: "M PLUS 2", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+}
+div#main {
+    text-align: center;
+    align-items: center;
+        padding: 0 10px;
+}
+
+div.cakes_main {
+    display: flex;
+}
+
+div.cakes {
+    display: inline-block;
+    height: 500px;
+    width: 450px;
+    padding: 25px 10px;
+}
+
+p.cakes_title {
+    /* display: inline; */
+    vertical-align: middle;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: larger;
+}
+
+div.cakes_desc_div {
+    display: flex;
+    align-items: flex-end;
+    height: 3em;
+    vertical-align: bottom;
+}
+
+p.cakes_desc {
+    padding: 0 auto;
+    margin: auto;
+}
+
+img.cakes_image {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+ul {
+    text-align: left;
+}
+li {
+    text-decoration: dashed;
+}
+
+footer {
+    padding: 15px;   
+    text-align: center;
+    font-size: 0.75em;
+    background-color: antiquewhite;
+}
