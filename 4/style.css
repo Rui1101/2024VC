@@ -1,0 +1,46 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+ul.ddmenu {
+    width: 100vw;
+    height: 100%;
+    background-color:antiquewhite ; 
+    margin: 0;
+    padding-left: 15px;
+}
+
+ul.ddmenu li {
+    width: 125px;
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+}
+
+ul.ddmenu a {
+    background-color: antiquewhite;
+    color: black;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+}
+
+ul.ddmenu ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+ul.ddmenu a:hover {
+    background-color: coral;
+    color: aliceblue;
+}
+
+ul.ddmenu li:hover ul {
+    display: block;
+}
