@@ -76,6 +76,7 @@ section#rec_menu {
 div.menu_left {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	width: 40%;
 	height: 100%;
 }
@@ -198,6 +199,15 @@ div#payment img {
 
 div#payment a {
 	color: black;
+}
+
+div#payment #cashless_p  {
+	font-size: 1.5em;
+}
+
+div#payment span#cashless_payment {
+	font-weight: bolder;
+	text-decoration: underline;
 }
 
 section#access {
