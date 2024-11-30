@@ -97,3 +97,7 @@ section#access {
 	color: #8C030E;
 	margin-bottom: 10px;
 }
+
+.map iframe {
+	box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+}
