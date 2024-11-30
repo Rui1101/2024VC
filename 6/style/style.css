@@ -1,0 +1,265 @@
+section#top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 4em;
+	text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+	opacity: 0;
+	transform: translateY(-20px);
+	animation: showTitle 1s ease-out forwards;
+}
+
+section#top img {
+	max-width: 75%;
+}
+
+@keyframes showTitle {
+	0% {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+h2.title {
+	text-align: center;
+	font-size: 2em;
+	/* padding-top: 1em; */
+}
+
+h2.title+p {
+	text-align: center;
+	padding: 0.5em;
+	font-size: 1em;
+}
+
+section#about_us {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+div.about_us_flexbox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+section#about_us img {
+	display: inline-block;
+	max-width: calc(50vw - 40px);
+	margin: 0 20px;
+	height: auto;
+	box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+span.key_word {
+	font-weight: bold;
+	font-size: larger;
+	padding: 5px 10px;
+}
+
+section#rec_menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+
+div.menu_left {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	height: 100%;
+}
+
+div.menu_left a {
+	text-align: center;
+	margin: 0 20px;
+	font-size: 1.3em;
+	text-decoration: underline;
+	color: #000000;
+	transition: 0.5s;
+}
+
+div.rec_niku {
+	padding: 20px;
+}
+
+div.rec_niku span.niku {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+div.rec_niku p.niku_desc {
+	padding: 15px 10px 15px;
+}
+
+div.menu_right {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 40%;
+	height: 100%;
+}
+
+div.menu_img {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	height: 50%;
+	padding: 10px;
+}
+
+div.menu_img img {
+	max-width: 100%;
+	max-height: 80%;
+	box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+div.menu_img p.img_desc {
+	padding: 10px;
+	font-size: 1.2em;
+	font-weight: bold;
+	white-space: nowrap;
+	text-decoration: underline;
+}
+
+div#opening_hours {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+div#opening_hours table {
+	font-size: 1.2em;
+	margin-bottom: 20px;
+	width: 50%;
+	border-collapse: collapse;
+}
+
+div#opening_hours tr:nth-child(3) {
+	border-bottom: none;
+}
+
+div#opening_hours tr {
+	border-bottom: 1px #ddd solid;
+}
+
+div#opening_hours th, td {
+	padding: 10px;
+}
+
+div#opening_hours p {
+	padding: 5px;
+}
+
+section#info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+section#info div#payment {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+div#payment ul {
+	display: flex;
+}
+
+div#payment li {
+	list-style: none;
+	margin: 10px 20px 10px 0;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+div#payment img {
+	width: 50%;
+	height: auto;
+	padding: 10px;
+}
+
+div#payment a {
+	color: black;
+}
+
+section#access {
+	height: calc(100vh - 120px);
+	width: 100%;
+}
+
+section#access div.access_flexbox {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+section#access div.access_left {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+section#access div.access_left iframe {
+	box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+section#access div.access_right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	height: 100%;
+}
+
+div.access_right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+div.access_right table {
+	font-size: 1.2em;
+	margin-bottom: 20px;
+	width: 70%;
+	border-collapse: collapse;
+}
+
+div.access_right table a {
+	color: #000000;
+}
+
+div.access_right #access_tel {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+div.access_right #access_tel a {
+	text-decoration: none;
+}
+
+
+div.access_right p {
+	font-size: 1.125em;
+}

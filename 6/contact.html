@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>お問い合わせ - 牛工大 -</title>
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/style_contact.css">
+    <link rel="shortcut icon" href="img/gyukoudai.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Shippori+Mincho+B1&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <a href="index.html">
+                <div class="store_name">
+                    <img src="img/gyukoudai-logo-white.png" alt="牛工大のロゴ">
+                </div>
+            </a>
+            <nav class="nav">
+                <ul class="pc_navlist">
+                    					<a href="index.html" class="navlist">
+						<li>ホーム<span class="material-symbols-outlined">
+								home
+							</span></li>
+					</a>
+                    <a href="menu.html" class="navlist">
+                        <li>メニュー<span class="material-symbols-outlined">
+                                menu_book
+                            </span></li>
+                    </a>
+                    <a href="access.html" class="navlist">
+                        <li>アクセス<span class="material-symbols-outlined">
+                                map
+                            </span></li>
+                    </a>
+                    <a href="contact.html" class="navlist">
+                        <li>お問い合わせ<span class="material-symbols-outlined">
+                                contact_support
+                            </span></li>
+                    </a>
+                </ul>
+                <div class="place_info">
+                    <span id="info_tel"><span class="material-symbols-outlined">
+                            call
+                        </span><a href="tel:+81004567890">000-456-7890</a></span>
+                    <span id="info_addr">焼肉市美食町1-2-3</span>
+                </div>
+            </nav>
+        </header>
+        <div id="scroll_area" class="scroll_area">
+            <main>
+                <div class="mainContents">
+                    <section class="full" id="contact_form">
+                        <div class="form-container">
+                            <h1>お問い合わせフォーム</h1>
+                            <p>返信には数日お時間をいただいております。<br>お急ぎの場合はお電話(000-456-7890)までご連絡ください。</p>
+                            <form action="#" method="post">
+                                <label for="name">お名前</label>
+                                <input type="text" id="name" name="name" required>
+
+                                <label for="phone">電話番号</label>
+                                <input type="tel" id="phone" name="phone" pattern="[0-9]{10,11}" required>
+
+                                <label for="email">メールアドレス</label>
+                                <input type="email" id="email" name="email" required>
+
+                                <label for="message">お問い合わせ内容</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+
+                                <button type="submit">送信</button>
+                            </form>
+                        </div>
+                    </section>
+
+                    <footer class="footer">
+                        <p id="footer_msg">中途半端なものは提供しません。一流の肉を格安で！</p>
+                        <div class="footer_place_name">
+                            <img src="img/gyukoudai-logo-yoko-white.png" alt="横向きの牛工大のロゴ">
+                        </div>
+                    </footer>
+                </div>
+            </main>
+        </div>
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>
